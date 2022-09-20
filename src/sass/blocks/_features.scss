@@ -1,0 +1,26 @@
+.features {
+    padding: 15px 0;
+    &__items {
+        width: 1476px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__item-image {
+        margin-right: 20px;
+    }
+    &__item-descr {
+        max-width: 250px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #213342;
+        &--bold {
+            font-family: 'Fira Sans Bold', sans-serif;
+            font-weight: 700;
+        }
+    }
+}

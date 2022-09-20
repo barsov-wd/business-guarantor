@@ -1,0 +1,15 @@
+.contacts-info {
+    padding: 32px 0;
+    background-color: #F9F9FA;
+    text-align: center;
+    &__address,
+    &__name {
+        font-family: 'Montserrat Regular', sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #213342;
+    }
+    &__address {
+        margin-bottom: 10px;
+    }
+}

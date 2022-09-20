@@ -1,0 +1,62 @@
+.promo {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 89px;
+    background: #F9F9FA;
+    &::after {
+        content: '';
+        position: absolute;
+        background: url('../img/promo/promo-image-after.png') center no-repeat;
+        right: 0;
+        bottom: 0;
+        width: 818px;
+        height: 168px;
+        z-index: 2;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 22%;
+        background: url('../img/promo/promo-image-before.png') center no-repeat;
+        width: 664px;
+        height: 265px;
+        z-index: 2;
+    }
+    &__image {
+        position: absolute;
+        bottom: 0;
+        right: 150px;
+        width: 37%;
+        height: 100%;
+        object-fit: inherit;
+    }
+    &__image-mobile {
+        display: none;
+    }
+    &__title {
+        width: 704px;
+        font-family: 'Montserrat Bold', sans-serif;
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 60px;
+        color: #213342;
+        margin-bottom: 25px;
+    }
+    &__descr {
+        width: 663px;
+        font-family: 'Fira Sans Regular', sans-serif;
+        font-size: 32px;
+        line-height: 36px;
+        color: #213342;
+        margin-bottom: 25px;
+    }
+    &__button {
+        width: 365px;
+        height: 65px;
+        transition: all .5s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

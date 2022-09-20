@@ -1,0 +1,740 @@
+@media (max-width: 1650px) {
+    .container {
+        max-width: 1570px;
+        width: 100%;
+    }
+    .promo {
+        &::before {
+            right: 15%;
+        }
+        &__image {
+            right: 150px;
+        }
+        &__title {
+            font-size: 54px;
+            line-height: 59px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                width: 1480px;
+                &--three {
+                    background-size: 50%;
+                }
+                &--four {
+                    background-size: 50%;
+                }
+                &--five {
+                    background-size: 50%;
+                }
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 1480px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1470px;
+        width: 100%;
+    }
+    .promo {
+        &::before {
+            right: 10%;
+        }
+        &::after {
+            width: 620px;
+        }
+        &__image {
+            right: 65px;
+        }
+        &__title {
+            font-size: 53px;
+            line-height: 58px;
+        }
+        &__descr {
+            font-size: 30px;
+            line-height: 34px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                width: 1380px;
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,350px);
+                max-width: 760px;
+            }
+            &__input-group {
+                width: 350px;
+            }
+            &__button {
+                width: 350px;
+            }
+            &__form {
+                width: 770px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 1380px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1370px;
+        width: 100%;
+    }
+    .promo {
+        &::before {
+            right: 6%;
+        }
+        &::after {
+            background-size: cover;
+        }
+        &__title {
+            font-size: 52px;
+            line-height: 56px;
+        }
+        &__descr {
+            font-size: 29px;
+            line-height: 32px;
+        }
+    }
+    .features {
+        &__items {
+            width: 100%;
+        }
+        &__item-image {
+            margin-right: 15px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                width: 1280px;
+                &--one {
+                    background-size: 55%;
+                }
+                &--two {
+                    background-size: 55%;
+                }
+                &--three {
+                    background-size: 45%;
+                }
+                &--four {
+                    background-size: 45%;
+                }
+                &--five {
+                    background-size: 45%;
+                }
+                &--six {
+                    background-size: 50%;
+                }
+                &--seven {
+                    background-size: 45%;
+                }
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 1280px;
+                padding: 190px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1270px;
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                width: 1270px;
+                &--one {
+                    background-size: 55%;
+                }
+                &--two {
+                    background-size: 55%;
+                }
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 1270px;
+                padding: 180px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+    }
+    .promo {
+        &::before {
+            width: 565px;
+            height: 235px;
+            background-size: contain;
+        }
+        &::after {
+            height: 145px;
+        }
+        &__image {
+            width: 40%;
+        }
+        &__title {
+            font-size: 50px;
+            line-height: 55px;
+        }
+        &__descr {
+            font-size: 28px;
+            width: 630px;
+        }
+    }
+    .features {
+        &__item-descr {
+            max-width: 240px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                padding: 38px 10px 118px 67px;
+                width: 1170px;
+                &--one {
+                    background-size: 55%;
+                }
+                &--two {
+                    background-size: 55%;
+                }
+                &--three {
+                    background-size: 43%;
+                }
+                &--four {
+                    background-size: 43%;
+                }
+                &--six {
+                    background-size: 45%;
+                }
+                &--seven {
+                    background-size: 43%;
+                }
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,340px);
+                max-width: 740px;
+            }
+            &__input-group {
+                width: 340px;
+            }
+            &__button {
+                width: 340px;
+            }
+            &__form {
+                width: 750px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 1170px;
+                padding: 160px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+    .promo {
+        &::after {
+            background-size: contain;
+            height: 87px;
+            width: 430px;
+        }
+        &::before {
+            width: 480px;
+            height: 200px;
+            right: 0;
+        }
+        &__title {
+            width: 575px;
+            font-size: 46px;
+            line-height: 52px;
+        }
+        &__descr {
+            font-size: 26px;
+            width: 485px;
+        }
+        &__image {
+            width: 47%;
+            right: 0;
+        }
+    }
+    .features {
+        &__item-descr {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        &__item-image {
+            margin-right: 10px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                padding: 38px 20px 108px 20px;
+                width: 960px;
+                &--one {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+                &--two {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+                &--three {
+                    background: none;
+                    background-color: #eeeeee; 
+                }
+                &--four {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+                &--five {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+                &--six {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+                &--seven {
+                    background: none;
+                    background-color: #eeeeee;
+                }
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,330px);
+                max-width: 700px;
+                margin: 0 auto 120px;
+            }
+            &__title {
+                text-align: center;
+            }
+            &__input-group {
+                width: 330px;
+            }
+            &__button {
+                width: 330px;
+            }
+            &__button-group {
+                width: 700px;
+                margin: 0 auto;
+            }
+            &__form {
+                max-width: 700px;
+                margin: 0 auto 100px;
+            }
+            &__form-input {
+                width: 330px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 960px;
+                padding: 120px 0;
+            }
+            &__title {
+                font-size: 46px;
+                line-height: 48px;
+            }
+            &__descr {
+                font-size: 28px;
+                line-height: 34px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+        width: 100%;
+    }
+    .header {
+        text-align: center;
+    }
+    .promo {
+        padding: 69px 0;
+        text-align: center;
+        &__image {
+            display: none;
+        }
+        &::after,
+        &::before {
+            display: none;
+        }
+        &__title {
+            font-size: 44px;
+            line-height: 48px;
+            margin: 0 auto 20px;
+        }
+        &__descr {
+            margin: 0 auto;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__image-mobile {
+           display: block;
+           margin: 0 auto; 
+        }
+    }
+    .features {
+        padding: 10px 0;
+        &__items {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            max-width: 29%;
+            margin: 8px 15px;
+        }
+        &__item-image {
+            width: 76px;
+            height: 66px;
+            object-fit: contain;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                padding: 38px 20px 108px 20px;
+                width: 750px;
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,330px);
+                max-width: 680px;
+                margin: 0 auto 120px;
+            }
+            &__title {
+                font-size: 32px;
+                line-height: 32px;
+            }
+            &__input-group {
+                width: 330px;
+            }
+            &__button {
+                width: 330px;
+            }
+            &__button-group {
+                width: 684px;
+                margin: 0 auto;
+            }
+            &__form {
+                max-width: 680px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 750px;
+                padding: 100px 0;
+            }
+            &__title {
+                font-size: 42px;
+                line-height: 46px;
+            }
+            &__descr {
+                font-size: 26px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .header {
+        &__logo {
+            width: 200px;
+            height: 70px;
+            object-fit: contain;
+        }
+    }
+    .promo {
+        padding-top: 50px;
+        padding-bottom: 0;
+        &__title {
+            width: 100%;
+            font-size: 38px;
+            line-height: 44px;
+        }
+        &__button {
+            transform: translateY(-55px);
+        }
+    }
+    .features {
+        &__item {
+            max-width: 44%;
+        }
+    }
+    .modal {
+        padding-top: 80px;
+        &-quiz {
+            &__dialog {
+                padding: 38px 20px 90px 20px;
+                min-width: 540px;
+                max-width: 757px;
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,330px);
+                max-width: 330px;
+                grid-gap: 10px;
+                margin: 0 auto 135px;
+            }
+            &__title {
+                font-size: 28px;
+                line-height: 32px;
+            }
+            &__input-group {
+                width: 330px;
+            }
+            &__button {
+                width: 330px;
+                margin-right: 0;
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            &__button-group {
+                width: 330px;
+            }
+            &__form {
+                max-width: 330px;
+                flex-wrap: wrap;
+            }
+            &__input-group {
+                &--last {
+                    margin-bottom: 15px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 540px;
+                padding: 100px 10px;
+            }
+            &__title {
+                font-size: 30px;
+                line-height: 34px;
+            }
+            &__descr {
+                font-size: 22px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header {
+        padding: 6px 0;
+        &__logo {
+            width: 152px;
+            height: 58px;
+        }
+    }
+    .promo {
+        padding-top: 30px;
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__descr {
+            font-size: 22px;
+            line-height: 22px;
+            width: 335px;
+        }
+        &__button {
+            width: 335px;
+            height: 60px;
+        }
+    }
+    .features {
+        padding: 61px 0;
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            max-width: 100%;
+            margin: 0;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 40px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .contacts-info {
+        &__name,
+        &__address {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .modal {
+        padding-top: 80px;
+        &-quiz {
+            &__dialog {
+                padding: 22px 20px 69px 20px;
+                min-width: 375px;
+                max-width: 576px;
+            }
+            &__circle {
+                margin: 0 auto 45px;
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,335px);
+                max-width: 330px;
+                grid-gap: 10px;
+                margin: 0 auto 180px;
+            }
+            &__title {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            &__input-group {
+                width: 335px;
+            }
+            &__button {
+                width: 335px;
+                font-size: 18px;
+                line-height: 20px;
+            }
+            &__button-group {
+                width: 335px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                max-width: 375px;
+                padding: 176px 20px;
+            }
+            &__title {
+                font-size: 28px;
+                line-height: 30px;
+            }
+            &__descr {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            &__button {
+                width: 335px;
+            }
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .promo {
+        width: 100%;
+        &__title {
+            width: 100%;
+            padding: 0 20px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__descr {
+            width: 100%;
+            padding: 0 20px;
+        }
+        &__image-mobile {
+            width: 100%;
+        }
+        &__button {
+            width: 280px;
+        }
+    }
+    .modal {
+        &-quiz {
+            &__dialog {
+                min-width: 320px;
+            }
+            &__box {
+                grid-template-columns: repeat(auto-fill,280px);
+                max-width: 280px;
+                grid-gap: 10px;
+            }
+            &__input-group {
+                width: 280px;
+            }
+            &__button {
+                width: 280px;
+                height: 60px;
+            }
+            &__button-group {
+                width: 280px;
+            }
+            &__form {
+                max-width: 280px;
+            }
+            &__form-input {
+                width: 280px;
+            }
+        }
+        &-thanks {
+            &__dialog {
+                min-width: 320px;
+                max-width: 374px;
+                padding: 166px 20px;
+            }
+            &__title {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            &__descr {
+                font-size: 18px;
+                line-height: 20px;
+            }
+            &__button {
+                width: 280px;
+            }
+        }
+    }
+}

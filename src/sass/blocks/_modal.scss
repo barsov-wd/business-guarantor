@@ -1,0 +1,217 @@
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 199;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    transition: 0.3s;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    transition: 0.3s;
+    &--active {
+        opacity: 1;
+        visibility: visible;
+    }
+    &-quiz {
+        &__dialog {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 1520px;
+            background-color: #EEEEEE;
+            border: 2px solid #FFFFFF;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            padding: 38px 10px 138px 87px;
+            box-sizing: border-box;
+            color: #3E4A60;
+            &--one {
+                background: #EEEEEE url('../img/modal/modal-image-one.png') right bottom no-repeat;
+            }
+            &--two {
+                background: #EEEEEE url('../img/modal/modal-image-two.png') right bottom no-repeat;
+            }
+            &--three {
+                background: #EEEEEE url('../img/modal/modal-image-three.png') right bottom no-repeat;
+            }
+            &--four {
+                background: #EEEEEE url('../img/modal/modal-image-four.png') right bottom no-repeat;
+            }
+            &--five {
+                background: #EEEEEE url('../img/modal/modal-image-five.png') right bottom no-repeat;
+            }
+            &--six {
+                background: #EEEEEE url('../img/modal/modal-image-six.png') right bottom no-repeat;
+            }
+            &--seven {
+                background: #EEEEEE url('../img/modal/modal-image-seven.png') right bottom no-repeat;
+            }
+        }
+        &__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-size: 36px;
+            line-height: 36px;
+            color: #213342;
+            margin-bottom: 79px;
+        }
+        &__circle {
+            width: 52px;
+            height: 52px;
+            border: 1.5px dashed #213342;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 77px;
+        }
+        &__circle-number {
+            font-family: 'Fira Sans Bold', sans-serif;
+            font-size: 20px;
+            line-height: 18px;
+            color: #E31F26;
+        }
+        &__box {
+            font-family: 'Fira Sans Regular', sans-serif !important;
+            font-weight: 400;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 390px);
+            grid-gap: 20px;
+            max-width: 800px;
+            margin-bottom: 200px;
+        }
+        &__radio {
+            display: none;
+            &:checked + .modal-quiz__label__text {
+                background:  #213342;
+                font-family: 'Fira Sans Regular', sans-serif !important;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+        &__input-group {
+            width: 390px;
+            height: 60px;
+            cursor: pointer;
+            font-family: 'Fira Sans Regular', sans-serif !important;
+            font-weight: 400;
+        }
+        &__label {
+            font-family: 'Fira Sans Regular', sans-serif !important;
+            font-weight: 400;
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            &__text {
+                font-family: 'Fira Sans Regular', sans-serif !important;
+                font-weight: 400;
+                width: 100%;
+                height: 100%;
+                background: #FFFFFF;
+                box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                padding: 0 20px;
+                text-align: center;
+                cursor: pointer;
+                span {
+                    font-family: 'Fira Sans Regular', sans-serif !important;
+                    font-weight: 400;
+                    padding: 0 20px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        &__button {
+            width: 390px;
+            height: 65px;
+            margin-right: 20px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+        &__input,
+        &__form-input {
+            font-family: 'Fira Sans Regular', sans-serif !important;
+            font-weight: 400;
+            width: 390px;
+            height: 60px;
+            background-color: #fff;
+            border: none;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            &::placeholder {
+                color: #213342;
+            }
+        }
+        &__form {
+            margin-bottom: 138px;
+        }
+        &__input {
+            &::placeholder {
+                color: #213342;
+            }
+        }
+        &__form-input {
+            font-size: 18px;
+            line-height: 22px;
+            &::placeholder {
+                color: #BDBDBD;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+        &__form {
+            display: flex;
+            max-width: 800px;
+            justify-content: space-between;
+        }
+    }
+    &-thanks {
+        &__dialog {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 1520px;
+            padding: 209px 0;
+            background-color: #EEEEEE;
+            border: 2px solid #FFFFFF;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            box-sizing: border-box;
+            align-items: center;
+        }
+        &__content {
+            text-align: center;
+        }
+        &__title {
+            font-family: 'Montserrat Bold', sans-serif;
+            font-size: 55px;
+            line-height: 58px;
+            color: #213342;
+            margin-bottom: 40px;
+        }
+        &__descr {
+            font-family: 'Fira Sans Regular', sans-serif;
+            font-size: 32px;
+            line-height: 38px;
+            color: #3E4A60;
+            margin-bottom: 77px;
+        }
+        &__button {
+            width: 390px;
+            height: 65px;
+        }
+    }
+}
